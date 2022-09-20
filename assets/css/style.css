@@ -29,6 +29,10 @@
     justify-content: space-around;
 }
 
+.f-between{
+    justify-content: space-between;
+}
+
 .f-img{
     flex-basis: 60%;
 }
@@ -44,16 +48,16 @@ h1{
     padding: 20px 0 40px 0;
 }
 
-h2{
-    padding-bottom: 30px;
-}
-
 main{
     padding-top: 30px;
 }
 
 p{
     font-size: 1.5em;
+}
+
+ul{
+    list-style: none;
 }
 
 /* content */
@@ -105,4 +109,41 @@ div > a{
     padding: 70px 0;
     background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+#stars{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+footer{
+    background-color: #23272A;
+}
+
+#social{
+    flex-basis: 20%;
+}
+
+#ita img{
+    width: 20px;
+    ;
+}
+
+.faq{
+    flex-basis: 18%;
+}
+
+ul li:first-child{
+    color: #7289DA;
+}
+
+#contacts{
+    border-bottom: 1px solid #4A5882;
+    padding: 60px 0 30px 0;
+}
+
+#footer-end{
+    padding: 20px 0 60px 0;
 }
