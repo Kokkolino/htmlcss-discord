@@ -9,10 +9,42 @@
     margin: auto;
 }
 
+.txt-align{
+    text-align: center;
+}
+
 .flex{
     display: flex;
 }
 
 .container-80{
     width: 80%;
+}
+
+.container-60{
+    width: 60%
+}
+
+/* content */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#nav-link{
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+div > a{
+    padding: 0 1em;
+}
+
+#nav-content{
+    padding: 18vh 0 10vh 0;
+}
+
+#nav-content > *{
+    margin: 1.5em 0;
 }
